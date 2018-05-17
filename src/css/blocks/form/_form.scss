@@ -1,0 +1,71 @@
+.form {
+  width: 100%;
+  padding-top: 30px;
+  padding-bottom: 30px;
+  background: #111 url('../img/map.jpg') center center no-repeat;
+  background-size: cover;
+}
+
+.form__container {
+  width: 430px;
+  height: 430px;
+  margin-right: auto;
+  margin-left: auto;
+  border-radius: 50%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color:rgba(255, 255, 255, 0.8);
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.2);
+}
+
+.form__input {
+  margin: 0;
+  padding-top: 10px;
+  padding-right: 15px;
+  padding-bottom: 10px;
+  padding-left: 15px;
+  color: #b4b5b9;
+  border: 2px solid #d8d8d8;
+}
+
+.form__input::-webkit-input-placeholder {
+  color: #b4b5b9;
+}
+.form__input:-ms-input-placeholder {
+  color: #b4b5b9;
+}
+.form__input::-ms-input-placeholder {
+  color: #b4b5b9;
+}
+
+.form__input_name {
+  width: 241px;
+  margin-top: 110px;
+}
+
+.form__input_email {
+  width: 241px;
+  margin-top: 15px;
+  margin-bottom: 15px;
+}
+
+.form__input_textarea {
+  width: 275px;
+  box-sizing: border-box;
+  margin-bottom: 30px;
+}
+
+.form__submit {
+  font-size: 70px;
+  color: #00d089;
+  margin-bottom: 45px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+}
+
+
+
+
+

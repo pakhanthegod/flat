@@ -1,0 +1,13 @@
+.page__header {
+  width: 100%;
+  background-color: #4b95a1;
+}
+
+.page__header, .page__jumbotron, .page__advantages, .page__comment, .page__form, .page__footer {
+  min-width: 1024px;
+}
+
+.page__comment {
+  width: 100%;
+  background-color: #00d089;
+}

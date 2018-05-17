@@ -1,0 +1,28 @@
+.nav {
+  display: flex;
+  list-style: none;
+  font-size: 18px;
+  font-family: "Helvetica LT Condensed";
+  color: #fff;
+}
+
+.nav__item:not(:first-child)::before {
+  content: "/";
+  display: inline;
+  padding-left: 25px;
+  padding-right: 25px;
+}
+
+.nav__link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #fff;
+}
+
+.nav__link:visited {
+  color: #fff;
+}
+
+.nav__link:hover {
+  text-decoration: underline;
+}
